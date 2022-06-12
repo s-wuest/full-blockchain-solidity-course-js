@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "C:\\sqlite3\\DBs\\Northwind_large.sqlite",
+            "name": "Northw"
+        }
+    ]
+}
