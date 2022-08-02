@@ -528,6 +528,13 @@ Backup Faucet: https://rinkebyfaucet.com/
 ## Welcome to the course!
 *[⌨️ (00:00:00) Lesson 0: Welcome To Blockchain](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=0s)*
 ## Best Practices 
+- **Follow the repository:** While going through the course be 100% certain to follow along with the github repository. If you run into in an issue check the chronological-updates in the repo.
+- **Be Active in the community:** Ask questions and engage with other developers going through the course in the discussions tab, be sure to go and say hello or gm! This space is different from the other industries, you don't have to be secretive; communicate, network and learn with others :)
+- **Learn at your own pace:** It doesn't matter if it takes you a day, a week, a month or even a year. Progress >>> Perfection
+- **Take Breaks:** You will exhaust your mind and recall less if you go all out and watch the entire course in one sitting. 
+  **Suggested Strategy** every 25 minutes take a 5 min break, and every 2 hours take a longer 30 min break
+- **Refer to Documentation:** Things are constantly being updated, so whenever Patrick opens up some documentation, open it your end and maybe even have the code sample next to you.
+
 # Lesson 1: Blockchain Basics
 *[⌨️ (00:09:05) Lesson 1: Blockchain Basics](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=545s)*
 ## What is a Blockchain? What does a blockchain do? 
@@ -717,7 +724,7 @@ Backup Faucet: https://rinkebyfaucet.com/
 - [Fields in a Transaction](https://ethereum.org/en/developers/docs/transactions/)
 - [More on v,r,s](https://ethereum.stackexchange.com/questions/15766/what-does-v-r-s-in-eth-gettransactionbyhash-mean)
 - [payable](https://solidity-by-example.org/payable)
-- [msg.valu & Other global keywords](https://docs.soliditylang.org/en/v0.8.14/cheatsheet.html?highlight=cheatsheet#global-variables)
+- [msg.value & Other global keywords](https://docs.soliditylang.org/en/v0.8.14/cheatsheet.html?highlight=cheatsheet#global-variables)
 - [require](https://codedamn.com/news/solidity/what-is-require-in-solidity)
 - [revert](https://medium.com/blockchannel/the-use-of-revert-assert-and-require-in-solidity-and-the-new-revert-opcode-in-the-evm-1a3a7990e06e)
 
@@ -753,13 +760,13 @@ Backup Faucet: https://rinkebyfaucet.com/
 ## Basic Solidity: Arrays & Structs II
 - [msg.sender](https://docs.soliditylang.org/en/v0.8.14/cheatsheet.html?highlight=msg.sender)
 
-## Review of Interfacs, Importing from GitHub, & Math in Solidity
+## Review of Interfaces, Importing from GitHub, & Math in Solidity
 
 ## Libraries
 - [Library](https://docs.soliditylang.org/en/v0.8.14/contracts.html?highlight=library#libraries)
 - [Solidity-by-example Library](https://solidity-by-example.org/library)
 
-## SafeMath, Overflow Checking, and the "unchecked" keywork
+## SafeMath, Overflow Checking, and the "unchecked" keyword
 - [Openzeppelin Safemath](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/SafeMath.sol)
 - [unchecked vs. checked](https://docs.soliditylang.org/en/v0.8.0/control-structures.html#checked-or-unchecked-arithmetic)
 
@@ -813,6 +820,7 @@ Backup Faucet: https://rinkebyfaucet.com/
 🧪 [Alchemy: https://alchemy.com/?a=673c802981](https://alchemy.com/?a=673c802981)
 
 ## Effective Debugging Strategies & Getting Help
+*[⌨️ (5:30:46) Effective Debugging Stategies & Getting Help](https://youtu.be/gyMwXuJrbJQ?t=19846)*
 1. Tinker and isolate problem
    1. For this course, take at LEAST 15 minutes to figure out a bug.
 2. Google / Web Search the Exact problem
@@ -891,8 +899,8 @@ In your `.vscode/settings.json` file.
 ### A Note on the await Keyword
 ## Adding Transaction Overrides
 ## Transaction Receipts
-## Sending a "raw" Transaction in Ethersjs
-## Interacting with Contracts in Ethersjs
+## Sending a "raw" Transaction in Ethers.js
+## Interacting with Contracts in Ethers.js
 - [EVM Decompiler](https://ethervm.io/decompile)
 - [BigNumber](https://docs.ethers.io/v5/api/utils/bignumber/)
 ## Environment Variables
@@ -994,29 +1002,40 @@ yarn add --dev @typechain/ethers-v5 @typechain/hardhat @types/chai @types/node @
 💻 Code: https://github.com/PatrickAlphaC/hardhat-fund-me-fcc
 
 ## Introduction
+*[⌨️ (10:00:50) Introduction](https://youtu.be/gyMwXuJrbJQ?t=36050)*
 ## Hardhat Setup - Fund Me
+*[⌨️ (10:03:41) Hardhat Setup - Fund Me](https://youtu.be/gyMwXuJrbJQ?t=36221)*
 ## Linting
+*[⌨️ (10:06:20) Linting](https://youtu.be/gyMwXuJrbJQ?t=36380)*
 - [Eslint](https://eslint.org/)
 - [Solhint](https://github.com/protofire/solhint)
 - [Linting Code](https://www.perforce.com/blog/qac/what-lint-code-and-why-linting-important)
 ## Hardhat Setup - Fund Me - Continued
+*[⌨️ (10:07:47) Hardhat Setup - Fund Me - Continued](https://youtu.be/gyMwXuJrbJQ?t=36467)*
 ## Importing from NPM
+*[⌨️ (10:09:38) Importing from NPM](https://youtu.be/gyMwXuJrbJQ?t=36578)*
 - [@chainlink/contracts](https://www.npmjs.com/package/@chainlink/contracts)
 ## Hardhat Deploy
+*[⌨️ (10:10:43) Hardhat Deploy](https://youtu.be/gyMwXuJrbJQ?t=36643)*
 - [Hardhat Deploy](https://github.com/wighawag/hardhat-deploy)
 ## Mocking
+*[⌨️ (10:21:05) Mocking](https://youtu.be/gyMwXuJrbJQ?t=37265)*
 - [Mocking](https://stackoverflow.com/questions/2665812/what-is-mocking)
 - [Aave Github](https://github.com/aave/aave-v3-core)
 - [Chainlink Github](https://github.com/smartcontractkit/chainlink)
 - Multiple Versions of Solidity
 - Tags in hardhat
 ## Utils Folder
+*[⌨️ (10:52:51) Utils Folder](https://youtu.be/gyMwXuJrbJQ?t=39171)*
 ## Testnet Demo - Hardhat Fund Me
+*[⌨️ (10:55:45) Testnet Demo - Hardhat Fund Me](https://youtu.be/gyMwXuJrbJQ?t=39345)*
 - Hardhat Deploy Block Confirmations
 ## Solidity Style Guide
-- [Style Guide](https://docs.soliditylang.org/en/v0.8.13/style-guide.html)
-- [NatSpec](https://docs.soliditylang.org/en/v0.8.13/natspec-format.html#natspec)
+*[⌨️ (11:00:10) Solidity Style Guide](https://youtu.be/gyMwXuJrbJQ?t=39610)*
+- [Style Guide](https://docs.soliditylang.org/en/v0.8.15/style-guide.html)
+- [NatSpec](https://docs.soliditylang.org/en/v0.8.15/natspec-format.html)
 ## Testing Fund Me
+*[⌨️ (11:08:36) Testing Fund Me](https://youtu.be/gyMwXuJrbJQ?t=40116)*
 - [Unit Testing](https://en.wikipedia.org/wiki/Unit_testing)
 - [Hardhat Deploy Fixtures](https://github.com/wighawag/hardhat-deploy#creating-fixtures)
 - [ethers.getContract](https://github.com/wighawag/hardhat-deploy-ethers)
@@ -1024,18 +1043,24 @@ yarn add --dev @typechain/ethers-v5 @typechain/hardhat @types/chai @types/node @
 - [ethers.utils.parseUnits](https://docs.ethers.io/v5/api/utils/display-logic/#utils-parseUnits)
 - [Waffle Chai Matchers](https://ethereum-waffle.readthedocs.io/en/latest/matchers.html)
 ## Breakpoints & Debugging
+*[⌨️ (11:30:39) Breakpoints & Debugging](https://youtu.be/gyMwXuJrbJQ?t=41439)*
 - [VSCode Breakpoints](https://code.visualstudio.com/Docs/editor/debugging)
-## Gas III: 
+## Gas III 
+*[⌨️ (11:33:40) Gas III](https://youtu.be/gyMwXuJrbJQ?t=41620)*
 - [Transaction Response](https://docs.ethers.io/v5/api/providers/types/#providers-TransactionResponse)
 - [Transaction Receipt](https://docs.ethers.io/v5/api/providers/types/#providers-TransactionReceipt)
 ## console.log & Debugging
+*[⌨️ (11:36:35) console.log & Debugging](https://youtu.be/gyMwXuJrbJQ?t=41795)*
 - [Hardhat console.log](https://hardhat.org/hardhat-network/reference/#console-log)
 ## Testing Fund Me II
+*[⌨️ (11:37:31) Testing Fund Me II](https://youtu.be/gyMwXuJrbJQ?t=41851)*
 ## Storage in Solidity
+*[⌨️ (11:44:34) Storage in Solidity](https://youtu.be/gyMwXuJrbJQ?t=42274)*
 - [Storage Layout](https://docs.soliditylang.org/en/v0.8.13/internals/layout_in_storage.html)
 - [Purpose of the memory keyword](https://stackoverflow.com/questions/33839154/in-ethereum-solidity-what-is-the-purpose-of-the-memory-keyword)
 - [getStorageAt](https://docs.ethers.io/v5/api/providers/provider/#Provider-getStorageAt)
 ## Gas Optimizations using Storage Knowledge
+*[⌨️ (11:52:38) Gas Optimizations using Storage Knowledge](https://youtu.be/gyMwXuJrbJQ?t=42758)*
 - [Opcodes](https://ethereum.org/en/developers/docs/evm/opcodes/)
 - [Opcodes by Gas](https://github.com/crytic/evm-opcodes)
 - [Opcodes by Gas](https://evm.codes/)
@@ -1043,13 +1068,19 @@ yarn add --dev @typechain/ethers-v5 @typechain/hardhat @types/chai @types/node @
 - Append `i_` to immutable variables
 - Caps lock and underscore constant variables
 ## Solidity Chainlink Style Guide
+*[⌨️ (12:05:29) Solidity Chainlink Style Guide](https://youtu.be/gyMwXuJrbJQ?t=43529)*
 - [Chainlink Solidity Style Guide](https://github.com/smartcontractkit/full-blockchain-solidity-course-js/issues/13)
 ## Storage Review
+*[⌨️ (12:09:59) Storage Review](https://youtu.be/gyMwXuJrbJQ?t=43799)*
 ## Staging Tests
+*[⌨️ (12:11:43) Staging Tests](https://youtu.be/gyMwXuJrbJQ?t=43903)*
 - [Ternary](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 ## Running Scripts on a Local Node
+*[⌨️ (12:17:58) Running Scripts on a Local Node](https://youtu.be/gyMwXuJrbJQ?t=44278)*
 ## Adding Scripts to your package.json
+*[⌨️ (12:22:00) Adding Scripts to your package.json](https://youtu.be/gyMwXuJrbJQ?t=44520)*
 ## Pushing to GitHub
+*[⌨️ (12:25:17) Pushing to GitHub](https://youtu.be/gyMwXuJrbJQ?t=44717)*
 - [Github Quickstart](https://docs.github.com/en/get-started/quickstart)
 - [What is Git?](https://www.git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F)
 - [The quickstart that we follow in the video](https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github#adding-a-local-repository-to-github-using-git)
@@ -1064,7 +1095,7 @@ yarn add --dev @typechain/ethers-v5 @typechain/hardhat @types/chai @types/node @
 
 ## Introduction
 ## How Websites work with Web3 Wallets
-- [OHow to Connect your Smart Contracts to Metamask](https://www.youtube.com/watch?v=pdsYCkUWrgQ)
+- [How to Connect your Smart Contracts to Metamask](https://www.youtube.com/watch?v=pdsYCkUWrgQ)
   - 💻 Code from Video: https://github.com/PatrickAlphaC/full-stack-web3-metamask-connectors
   - ✍️ Article from Video: https://betterprogramming.pub/everything-you-need-to-know-about-fullstack-web3-94c0f1b18019?sk=a2764bcbdae98bf05e1052931de77982
 ## HTML Setup
@@ -1104,24 +1135,33 @@ MetaMask - RPC Error:
 
 ## Introduction
 ## Hardhat Setup - Smart Contract Lottery
+*[⌨️ (13:43:43) Hardhat Setup](https://youtu.be/gyMwXuJrbJQ?t=49423)*
 - Install dependencies:
 ```bash
 yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomiclabs/hardhat-etherscan @nomiclabs/hardhat-waffle chai ethereum-waffle hardhat hardhat-contract-sizer hardhat-deploy hardhat-gas-reporter prettier prettier-plugin-solidity solhint solidity-coverage dotenv
 ```
+- Install dependencies (Typescript version):
+```bash
+yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomiclabs/hardhat-etherscan @nomiclabs/hardhat-waffle chai ethereum-waffle hardhat hardhat-contract-sizer hardhat-deploy hardhat-gas-reporter prettier prettier-plugin-solidity solhint solidity-coverage dotenv @typechain/ethers-v5 @typechain/hardhat @types/chai @types/node ts-node typechain typescript
+```
 ## Raffle.sol Setup
+*[⌨️ (13:46:55) Raffle.sol Setup](https://youtu.be/gyMwXuJrbJQ?t=49615)*
 - [Custom Errors in Solidity](https://blog.soliditylang.org/2021/04/21/custom-errors/)
 ## Introduction to Events
-- [Events and Logging](https://www.youtube.com/watch?v=KDYJC85eS5M)
+*[⌨️ (13:54:02) Introduction to Events](https://youtu.be/gyMwXuJrbJQ?t=50042)*
 - [Events & Logging Video](https://www.youtube.com/watch?v=KDYJC85eS5M)
 - [Events & Logging in Hardhat](https://github.com/PatrickAlphaC/hardhat-events-logs)
 ## Events in Raffle.sol
+*[⌨️ (14:00:47) Events in Raffle.sol](https://youtu.be/gyMwXuJrbJQ?t=50447)*
 ## Introduction to Chainlink VRF
+*[⌨️ (14:02:30) Introduction to Chainlink VRF](https://youtu.be/gyMwXuJrbJQ?t=50550)*
 - [Special Guest Stephen Fluin](https://twitter.com/stephenfluin)
 ### Sub-Lesson: Chainlink VRF
 > - [Chainlink VRFv2 Docs](https://docs.chain.link/docs/get-a-random-number/)
 > - [Chainlink VRFv2 Walkthrough](https://www.youtube.com/watch?v=rdJ5d8j1RCg)
 > - [Chainlink Contracts](https://github.com/smartcontractkit/chainlink/blob/develop/contracts/src/v0.8/VRFConsumerBase.sol)
 ## Implementing Chainlink VRF - Introduction
+*[⌨️ (14:09:53) Implementing Chainlink VRF](https://youtu.be/gyMwXuJrbJQ?t=50993)*
 ### Hardhat Shorthand
 - [Hardhat Shorthand](https://hardhat.org/guides/shorthand.html)
 ## Implementing Chainlink VRF - The Request
@@ -1247,20 +1287,25 @@ yarn create next-app .
 - [Tailwind Extension](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 - [Install Tailwind into NextJS](https://tailwindcss.com/docs/guides/nextjs)
 ## Introduction to Hosting your Site
+*[⌨️ (18:12:50) Introdunction to Hosting your Site](https://youtu.be/gyMwXuJrbJQ?t=65570)*
 - [Vercel](https://vercel.com/)
 - [Moralis](https://moralis.io/)
 - [Netilfy](https://www.netlify.com/)
 - [IPFS](https://ipfs.io/)
 ## IPFS
+*[⌨️ (18:15:14) IPFS](https://youtu.be/gyMwXuJrbJQ?t=65714)*
 - [What is IPFS](https://www.youtube.com/watch?v=5Uj6uR3fp-U)
 - [IPFS](https://ipfs.io/)
 ## Hosting on IPFS
+*[⌨️ (18:18:51) Hosting on IPFS](https://youtu.be/gyMwXuJrbJQ?t=65931)*
 - [IPFS Companion](https://chrome.google.com/webstore/detail/ipfs-companion/nibjojkomfdiaoajekhjakgkdhaomnch)
 - [Brave Browser](https://brave.com/)
 - `yarn build && yarn next export`
 ## Hosting on IPFS & Filecoin using Fleek
+*[⌨️ (18:25:45) Hosting on IPFS & Filecoin using Fleek](https://youtu.be/gyMwXuJrbJQ?t=66345)*
 - [Fleek](https://fleek.co/)
 ## Filecoin Overview
+*[⌨️ (18:31:28) Filecoin Overview](https://youtu.be/gyMwXuJrbJQ?t=66688)*
 - [Special Guest Ally Haire](https://twitter.com/DeveloperAlly)
 - [IPFS URL of Ally's Video](ipfs://bafybeiasd6oxqiefoxgtskrokomexnb4zcq3fhwlcbyplx2paw65zmq2du)
 ## Lesson 10 Recap
@@ -1304,7 +1349,7 @@ yarn create next-app .
 ## What is Aave?
 - [Aave](https://aave.com/)
 - [My Previous Aave Video on Shorting Assets](https://www.youtube.com/watch?v=TmNGAvI-RUA)
-## Programatic Borrowing & Lending
+## Programmatic Borrowing & Lending
 - [DAI](https://makerdao.com/en/)
 - [Uniswap](https://app.uniswap.org/)
 ## WETH - Wrapped ETH
@@ -1327,7 +1372,6 @@ yarn create next-app .
 - [Special Guest Austin Griffith](https://twitter.com/austingriffith)!
 - [Speed Run Ethereum](https://speedrunethereum.com/) 
 ### More DeFi Learnings: 
-- [Speed Run Ethereum](https://speedrunethereum.com/)
 - [Defi-Minimal](https://github.com/smartcontractkit/defi-minimal/tree/main/contracts)
 - [Defi Dad](https://www.youtube.com/channel/UCatItl6C7wJp9txFMbXbSTg)
 
@@ -1397,7 +1441,7 @@ What REALLY is the ABI?
 
 Extra credit:
   - [Deconstructing Solidity](https://blog.openzeppelin.com/deconstructing-a-solidity-contract-part-ii-creation-vs-runtime-6b9d60ecb44c/)
-  - [Knowing and controlling your Smart Contract Address](https://www.youtube.com/watch?v=RxL_1AfV7N4)
+  - [Knowing and controlling your Smart Contract Address](https://www.youtube.com/watch?v=56K0FdosZ8g)
   - [From Solidity to byte code](https://www.youtube.com/watch?v=RxL_1AfV7N4)
 
 # Lesson 15: NextJS NFT Marketplace (If you finish this lesson, you are a full-stack MONSTER!)
@@ -1492,7 +1536,7 @@ Special thanks to [Matt Durkin](https://twitter.com/mdurkin92) for help with thi
 
 💻 Code: https://github.com/PatrickAlphaC/hardhat-upgrades-fcc
 
-## Upgradeable Smart Contracts Overview
+## Upgradable Smart Contracts Overview
 - [Optional Video](https://www.youtube.com/watch?v=bdXJmWajZRY)
 - [Links from Video]
 ## Types of Upgrades
@@ -1511,7 +1555,7 @@ Special thanks to [Matt Durkin](https://twitter.com/mdurkin92) for help with thi
 - [Yul](https://docs.soliditylang.org/en/latest/yul.html)
 ## Small Proxy Example
 - [EIP 1967](https://eips.ethereum.org/EIPS/eip-1967)
-## Transparent Upgradeable Smart Contract 
+## Transparent Upgradable Smart Contract 
 - [Hardhat-deploy Proxies](https://github.com/wighawag/hardhat-deploy#deploying-and-upgrading-proxies)
 - [Openzeppelin Upgrades Plugin](https://docs.openzeppelin.com/upgrades-plugins/1.x/)
   - [Openzeppelin upgrades tutorial](https://forum.openzeppelin.com/t/openzeppelin-upgrades-step-by-step-tutorial-for-hardhat/3580)
@@ -1610,7 +1654,7 @@ And make today an amazing day!
 
 # Thank you
 
-Thanks to everyone who is taking, participaint in, and working with this course. It's been a passion project and data dump of everything I've learnt in the web3 space to get you up to speed quickly. Also a big thank you to Chainlink Labs for encouraging this course to come to light - and many Chainlink Labs teammembers who helped with various assets!
+Thanks to everyone who is taking, participating in, and working on this course. It's been a passion project and a data dump of everything I've learnt in the web3 space to get you up to speed quickly. Also, a big thank you to Chainlink Labs for encouraging this course to come to light-and to the many Chainlink Labs team members who helped with various assets!
 
 [![Patrick Collins Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/PatrickAlphaC)
 [![Patrick Collins YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCn-3f8tw_E1jZvhuHatROwA)
